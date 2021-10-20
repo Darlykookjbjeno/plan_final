@@ -9,7 +9,7 @@
     </component>
 </template>
 <script>
-  export default{
+  export default {
     name: "sidebar-link",
     inject: {
       autoClose: {

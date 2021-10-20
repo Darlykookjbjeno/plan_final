@@ -1,12 +1,11 @@
 <template>
-  <div class="wrapper" >
+  <div class="wrapper">
     <side-bar>
       <sidebar-link to="/dashboard">
         <i class="tim-icons icon-chart-pie-36"></i>
         <template>
           <p>Programar Turno</p>
         </template>
-        
       </sidebar-link>
       <sidebar-link to="/icons">
         <i class="tim-icons icon-atom"></i>

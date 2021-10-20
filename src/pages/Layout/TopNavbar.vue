@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-absolute"
-       :class="{'bg-white': showMenu, 'navbar-transparent': !showMenu}">
+       :class="{'bg-info': showMenu, 'navbar-transparent': !showMenu}">
     <div class="container-fluid">
       <div class="navbar-wrapper">
         <div class="navbar-toggle d-inline" :class="{toggled: $sidebar.showSidebar}">

@@ -7,13 +7,11 @@
             <div class="row">
               <div class="col-sm-6">
                 <template>
-                  <h5 class="card-category">Total Shipments</h5>
+                  <h5 class="card-category">Turnos</h5>
                 </template>
 
-
-
                 <template>
-                  <h2 class="card-title">Performance</h2>
+                  <h2 class="card-title">Programar Turnos</h2>
                 </template>
               </div>
             </div>
@@ -42,10 +40,11 @@
                    </div>
                    <div class="form-group col-md-4">
                      <label for="">Especialidad</label>
-                     <select class="form-control">
-                       <option class="form-control">---selecciona--</option>
-                       <option>Pediatra</option>
-                     </select>
+                     <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">---seleccione---</option>
+                        <option value="2">pediatra</option>
+                      </select>
                    </div>
                  </form>
                 </div>

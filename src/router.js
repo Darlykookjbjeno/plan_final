@@ -1,7 +1,6 @@
 import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 import Dashboard from "@/pages/Dashboard.vue";
 import Icons from "@/pages/Icons.vue";
-import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import Facturas from "@/pages/Facturas.vue";
 import UserProfile from "@/pages/UserProfile.vue";
@@ -16,18 +15,13 @@ const routes = [{
   children:[
     {
       path: "dashboard",
-      name: "Dashboard",
+      name: "Programar Turno",
       component: Dashboard
     },
     {
       path: "icons",
-      name: "Icons",
+      name: "Historial",
       component: Icons
-    },
-    {
-      path: "maps",
-      name: "Maps",
-      component: Maps
     },
     {
       path: "notifications",
@@ -41,7 +35,7 @@ const routes = [{
     },
     {
       path: "user",
-      name: "User Profile",
+      name: "Perfil de Usuario",
       component: UserProfile
     },
 

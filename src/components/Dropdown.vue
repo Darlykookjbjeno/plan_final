@@ -6,11 +6,8 @@
       @click="toggleDropDown"
       v-click-outside="closeDropDown"
       >
-      
       <slot></slot>
-
   </component>
-
 </template>
 <script>
 
@@ -40,5 +37,12 @@
   }
 </script>
 
-<style>
+<style scoped >
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #11AAB8 !important;
+    text-decoration: none;
+    background-color: #e1e5eb;
+}
+
 </style>

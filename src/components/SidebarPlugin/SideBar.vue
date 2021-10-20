@@ -1,16 +1,9 @@
 <template>
-  <div class="sidebar">
+  <div class="sidebar" style="background:#11AAB8;">
       <div class="sidebar-wrapper text-left">
         <div class="logo">
 
-          <a href="javascript:void(0)" class="simple-text logo-mini">
-            {{ abv }}
-          </a>
-
-          <a href="javascript:void(0)" class="simple-text logo-normal">
-            {{ title }}
-          </a>
-
+          <img   src="@/assets/logos.png" >
         </div>
         <ul class="nav">
           <slot>
@@ -24,20 +17,14 @@
 <script>
 import SidebarLink from "./SidebarLink.vue";
 
-export default{
+export default {
   name: "side-bar",
   components: {
     SidebarLink
   },
   props: {
-    abv: {
-      type: String,
-      default: "CT"
-    },
-    title: {
-      type: String,
-      default: "Creative Tim"
-    },
+   
+    
     sidebarLinks:{
       type: Array,
       default: () => []
@@ -66,6 +53,12 @@ export default{
 </script>
 <style>
 .sidebar{
-  background-color: #11AAB8;
+  background-color: #11AAB8 !important;
+}
+img{
+  margin: 0px 70px;
+  width: 65px;
+  height: 62px;
+  border-radius:40px ;
 }
 </style>
