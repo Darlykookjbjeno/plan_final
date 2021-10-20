@@ -14,9 +14,7 @@
 </template>
 <script>
 
-import {
-  Card
-} from "@/components/index";
+import { Card } from "@/components/index";
 
 
 export default{

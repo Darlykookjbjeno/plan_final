@@ -1,22 +1,18 @@
 <template>
-  <div class="wrapper">
- 
-
-    <side-bar :background-color="backgroundColor">
-
-
+  <div class="wrapper" >
+    <side-bar>
       <sidebar-link to="/dashboard">
         <i class="tim-icons icon-chart-pie-36"></i>
         <template>
-          <p>My Escritorio</p>
+          <p>Programar Turno</p>
         </template>
         
       </sidebar-link>
       <sidebar-link to="/icons">
         <i class="tim-icons icon-atom"></i>
         <template>
-          <p>Ic</p>
-        </template>
+          <p>Historial</p>
+        </template> 
         
       </sidebar-link>
       <sidebar-link to="/maps">
@@ -88,7 +84,7 @@ export default {
 
   data() {
     return {
-      backgroundColor: "blue"
+      backgroundColor: "#11AAB8"
     };
   },
 

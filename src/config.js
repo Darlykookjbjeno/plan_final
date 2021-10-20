@@ -1,10 +1,10 @@
 export default {
   colors: {
-    default: "#344675",
-    primary: "#42b883",
-    info: "#1d8cf8",
-    danger: "#fd5d93",
-    teal: "#00d6b4",
-    primaryGradient: ['rgba(76, 211, 150, 0.1)', 'rgba(53, 183, 125, 0)', 'rgba(119,52,169,0)'],
+    default: "#11AAB8",
+    primary: "#11AAB8",
+    info: "#11AAB8",
+    danger: "#11AAB8",
+    teal: "#11AAB8",
+    primaryGradient: ['#11AAB8', '#11AAB8', '#11AAB8'],
   }
 }

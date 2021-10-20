@@ -10,6 +10,8 @@
                   <h5 class="card-category">Total Shipments</h5>
                 </template>
 
+
+
                 <template>
                   <h2 class="card-title">Performance</h2>
                 </template>
@@ -25,34 +27,35 @@
         <card class="card">
 
           <h4 slot="header" class="card-title mb-4">
-            <template> Mis Archivos
-              <button class="btn btn-info"> Agregar +</button>
+            <template> 
             </template>
           </h4>
 
-          
+          <section class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                 <form class="row">
+                   <div class="form-group col-md-4">
+                     <label for="">Identificacion</label>
+                     <input type="text" class="form-control" placeholder="Identificaccion">
+                   </div>
+                   <div class="form-group col-md-4">
+                     <label for="">Especialidad</label>
+                     <select class="form-control">
+                       <option class="form-control">---selecciona--</option>
+                       <option>Pediatra</option>
+                     </select>
+                   </div>
+                 </form>
+                </div>
+              </div>
+            </div>
+          </section>
 
-          <div class="table-responsive">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>Archivos</th>
-                  <th>Nombre</th>
-                  <th>ddddd</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th>
-                    <card style="width:100px;"><input type="file" class="form-control"></card>
-                  </th>
-                  <th>ggg</th>
-                  <th>ggg</th>
-                 
-                </tr>
-              </tbody>
-            </table>
-          </div>
+
+
+
         </card>
       </div>
     </div>
@@ -78,4 +81,6 @@ export default {
 input{
   width: 80px;
 }
+
+
 </style>

@@ -1,7 +1,5 @@
 <template>
-  <div
-      class="sidebar"
-      :data="backgroundColor">
+  <div class="sidebar">
       <div class="sidebar-wrapper text-left">
         <div class="logo">
 
@@ -40,10 +38,6 @@ export default{
       type: String,
       default: "Creative Tim"
     },
-    backgroundColor: {
-      type: String,
-      default: "green"
-    },
     sidebarLinks:{
       type: Array,
       default: () => []
@@ -71,4 +65,7 @@ export default{
 }
 </script>
 <style>
+.sidebar{
+  background-color: #11AAB8;
+}
 </style>

@@ -13,6 +13,7 @@
     "bootstrap-vue": "^2.21.2",
     "chart.js": "^2.8.0",
     "core-js": "^2.6.5",
+    "plantilla": "^0.1.0",
     "sweetalert2": "^11.1.9",
     "vue": "^2.6.10",
     "vue-axios": "^3.3.7",

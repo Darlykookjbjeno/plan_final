@@ -14,8 +14,6 @@ import  Axios from 'axios'
 Vue.config.productionTip = false;
 
 
-
-
 import routes from "./router";
 
 
@@ -39,6 +37,7 @@ Vue.use(VueAxios , Axios)
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.min.css'
+
 
 
 new Vue({
