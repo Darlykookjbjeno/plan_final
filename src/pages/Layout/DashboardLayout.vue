@@ -14,12 +14,7 @@
         </template> 
         
       </sidebar-link>
-      <sidebar-link to="/maps">
-        <i class="tim-icons icon-pin"></i>
-        <template>
-          <p>HO</p>
-        </template>
-      </sidebar-link>
+     
       
 
       <sidebar-link to="/notifications">
@@ -28,16 +23,6 @@
           <p>Notificaciones</p>
         </template>
       </sidebar-link>
-
-
-      <sidebar-link to="/facturas">
-        <i class="tim-icons icon-bell-55"></i>
-        <template>
-          <p>Notificaciones</p>
-        </template>
-      </sidebar-link>
-
-
 
       <sidebar-link to="/typography">
         <i class="tim-icons icon-align-center"></i>

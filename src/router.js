@@ -2,7 +2,6 @@ import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 import Dashboard from "@/pages/Dashboard.vue";
 import Icons from "@/pages/Icons.vue";
 import Notifications from "@/pages/Notifications.vue";
-import Facturas from "@/pages/Facturas.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import Typography from "@/pages/Typography.vue";
 
@@ -27,11 +26,6 @@ const routes = [{
       path: "notifications",
       name: "Notifications",
       component: Notifications
-    },
-    {
-      path: "facturas",
-      name: "Facturas",
-      component: Facturas
     },
     {
       path: "user",
